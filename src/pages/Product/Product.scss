@@ -1,0 +1,107 @@
+.product {
+  display: flex;
+  gap: 3.125rem;
+  padding-top: 2rem !important;
+
+  .left {
+    flex: 1;
+    display: flex;
+    gap: 20px;
+
+    .images {
+      flex: 1;
+      gap: 20px;
+      img {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+        cursor: pointer;
+        margin-bottom: 10px;
+      }
+    }
+    .main-img {
+      flex: 5;
+      img {
+        width: 100%;
+        max-height: 70%;
+        object-fit: cover;
+      }
+    }
+  }
+  .right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    .price {
+      color: #2879fe;
+      font-weight: 500;
+      font-size: 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      .old-price {
+        font-size: 1.25rem;
+        color: red;
+        text-decoration: line-through;
+      }
+    }
+    .description {
+      color: gray;
+      font-size: 0.875rem;
+    }
+    .quantity {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      button {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        border: none;
+      }
+    }
+    .add {
+      width: 50%;
+      padding: 10px;
+      background-color: #2879fe;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      cursor: pointer;
+      border: none;
+      font-weight: 500;
+    }
+    .add:hover {
+      background-color: #146efe;
+    }
+    .links {
+      display: flex;
+      gap: 30px;
+      .item {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        color: #2879fe;
+        font-size: 0.875rem;
+      }
+    }
+    .info {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      color: gray;
+      font-size: 14px;
+      margin-top: 30px;
+      hr {
+        width: 100%;
+        border: 1px solid rgb(238, 237, 237);
+      }
+    }
+  }
+}

@@ -6,19 +6,23 @@ const Footer = () => {
         <div className="left">
           <div className="item">
             <h1>Categories</h1>
-            <span>Women</span>
-            <span>Men</span>
-            <span>Shoes</span>
-            <span>Accessories</span>
-            <span>New Arrivals</span>
+            <div className="list">
+              <span>Women</span>
+              <span>Men</span>
+              <span>Shoes</span>
+              <span>Accessories</span>
+              <span>New Arrivals</span>
+            </div>
           </div>
           <div className="item">
             <h1>Links</h1>
-            <span>FAQ</span>
-            <span>Pages</span>
-            <span>Store</span>
-            <span>Compare</span>
-            <span>Cookies</span>
+            <div className="list">
+              <span>FAQ</span>
+              <span>Pages</span>
+              <span>Store</span>
+              <span>Compare</span>
+              <span>Cookies</span>
+            </div>
           </div>
         </div>
         <div className="right">

@@ -1,12 +1,12 @@
-.link {
+.card {
   max-width: 25rem;
   min-width: 15.625rem;
-  width: 25%;
+  width: 20%;
 
   // flex: 1;
   // min-height: 30rem;
-  height: 100%;
-  .card {
+  .link {
+    height: 100%;
     width: 100%;
     max-width: 400px;
     position: relative;
@@ -59,5 +59,25 @@
         // color: gray;
       }
     }
+  }
+}
+@media only screen and (max-width: 1278px) {
+  .card {
+    width: 20%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .card {
+    width: 45%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .card {
+    width: 45%;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .card {
+    width: 100%;
   }
 }

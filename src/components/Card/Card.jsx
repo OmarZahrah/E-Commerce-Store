@@ -8,8 +8,8 @@ const Card = ({ item }) => {
   const images = item.attributes.images.data;
 
   return (
-    <Link className="link" to={`/product/${item.id}`}>
-      <div className="card">
+    <div className="card">
+      <Link className="link" to={`/product/${item.id}`}>
         {isNew && <span className="new">New Season</span>}
         <div className="images">
           <img src={getImage(images[0])} alt="image" className="main-img" />
@@ -22,8 +22,8 @@ const Card = ({ item }) => {
           <span className={newPrice ? "old-price" : "price"}>{price} EGP</span>
           {newPrice && <span className="new-price">{newPrice} EGP</span>}
         </div>
-      </div>
-    </Link>
+      </Link>
+    </div>
   );
 };
 export default Card;

@@ -1,7 +1,9 @@
 .categories {
   display: flex;
+  min-height: 80vh;
   height: 80vh;
   gap: 10px;
+
   //   margin: 10px;
 
   .col {
@@ -49,5 +51,31 @@
       color: #fff;
       background-color: #2979fe;
     }
+  }
+}
+@media only screen and (max-width: 900px) {
+  .categories {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .categories {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    .col {
+      flex: 1 !important;
+    }
+    .row {
+      flex: 1 !important;
+    }
+    .col-l {
+      flex: 1 !important;
+    }
+  }
+}
+@media only screen and (max-width: 430px) {
+  .categories {
+    flex-direction: column;
   }
 }

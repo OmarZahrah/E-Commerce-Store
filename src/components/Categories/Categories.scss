@@ -1,5 +1,6 @@
 .categories {
   display: flex;
+  // height: 80vh;
   min-height: 80vh;
   height: 80vh;
   gap: 10px;
@@ -61,8 +62,11 @@
 }
 @media only screen and (max-width: 768px) {
   .categories {
+    min-height: 80vh;
+    height: fit-content;
     padding-left: 0 !important;
     padding-right: 0 !important;
+
     .col {
       flex: 1 !important;
     }
@@ -76,6 +80,7 @@
 }
 @media only screen and (max-width: 430px) {
   .categories {
+    min-height: 80vh;
     flex-direction: column;
   }
 }

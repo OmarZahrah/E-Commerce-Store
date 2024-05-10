@@ -4,12 +4,15 @@ import "./Products.scss";
 import { useParams } from "react-router-dom";
 import useFetch from "../../hooks/useFetch";
 import { getImage } from "../../utils/getImage";
+import KeyboardDoubleArrowRightIcon from "@mui/icons-material/KeyboardDoubleArrowRight";
+import KeyboardDoubleArrowLeftIcon from "@mui/icons-material/KeyboardDoubleArrowLeft";
 
 const Products = () => {
   const catId = parseInt(useParams().id);
   const [maxPrice, setMaxPrice] = useState(1000);
   const [sort, setSort] = useState("asc");
   const [selectedSbCats, setSelectedSbCats] = useState([]);
+  const [openSideBar, setOpenSideBar] = useState(false);
 
   const { data, loading, error } = useFetch(
     `/sub-categories?[filters][categories][id][$eq]=${catId}`
@@ -33,7 +36,21 @@ const Products = () => {
         "Loading..."
       ) : (
         <>
-          <div className="left">
+          <div className="icons">
+            <KeyboardDoubleArrowLeftIcon
+              className={`left-icon icon ${!openSideBar ? "hide" : ""}`}
+              onClick={() => setOpenSideBar(false)}
+            />
+            <KeyboardDoubleArrowRightIcon
+              className={`right-icon icon ${openSideBar ? "hide" : ""}`}
+              onClick={() => setOpenSideBar(true)}
+            />
+          </div>
+          <div
+            className={`left ${
+              openSideBar ? "show-side-bar" : "hide-side-bar"
+            }`}
+          >
             <div className="filter-item">
               <h2>Product categories</h2>
               {data?.map((item) => (

@@ -30,13 +30,13 @@ const NavBar = () => {
             <KeyboardArrowDownOutlinedIcon />
           </div> */}
           <div className="item">
-            <Link to="/products/1">Men</Link>
+            <Link to="/products/3">Men</Link>
           </div>
           <div className="item">
-            <Link to="/products/2">Women</Link>
+            <Link to="/products/4">Women</Link>
           </div>
           <div className="item">
-            <Link to="/products/3">Children</Link>
+            <Link to="/products/5">Children</Link>
           </div>
         </div>
         <div className={`center ${openNav ? "open-nav-center" : ""}`}>

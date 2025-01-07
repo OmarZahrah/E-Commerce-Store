@@ -18,7 +18,6 @@ const Products = () => {
     `/sub-categories?[filters][categories][id][$eq]=${catId}`
   );
   const { data: category } = useFetch(`/categories/${catId}?populate=*`);
-  console.log(category);
 
   const handleChange = (e) => {
     const value = e.target.value;

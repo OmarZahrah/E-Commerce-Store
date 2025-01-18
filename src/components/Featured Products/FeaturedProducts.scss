@@ -1,0 +1,44 @@
+.featuredProducts {
+  // padding: 3.125rem 6.25rem;
+  min-height: 100vh;
+  .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h1 {
+      flex: 2;
+      text-transform: capitalize;
+    }
+    p {
+      flex: 3;
+      color: gray;
+      text-align: left;
+    }
+  }
+  .bottom {
+    display: flex;
+    // justify-content: center;
+    // gap: 3.125rem;
+    column-gap: 2%;
+    row-gap: 5rem;
+    margin-top: 3rem;
+    // height: 70%;
+    width: 100%;
+    // overflow: hidden;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .featuredProducts {
+    .top {
+      // display: none;
+      flex-direction: column;
+      gap: 10px;
+      p {
+        font-size: 12px;
+      }
+    }
+  }
+}

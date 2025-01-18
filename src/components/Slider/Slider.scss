@@ -1,0 +1,41 @@
+.slider {
+  height: calc(100vh - 80px);
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  .container {
+    width: 300vw;
+    height: 100%;
+    display: flex;
+    transition: all 0.4s ease;
+    img {
+      width: 100vw;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .icon {
+    position: absolute;
+    border: 1px solid #999;
+    width: 3.125rem;
+    height: 3.125rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-50%);
+  }
+  .icon:hover {
+    background: #5453536f;
+    color: #fff;
+  }
+  .left-icon {
+    top: 50%;
+    left: 0;
+  }
+  .right-icon {
+    top: 50%;
+    right: 0;
+  }
+}

@@ -1,7 +1,5 @@
 <div align="center">
 
-![Homepage Screenshot](./app/icon.png)
-
   <br/>
   <br/>
   <p>
@@ -32,6 +30,8 @@ Add products to the cart, manage quantities, and proceed to checkout.
 
 ## Screenshots
 
+<<<<<<< HEAD
+
 ## Screenshots
 
 ![Homepage Screenshot](./public/Screenshots/home.jpg)
@@ -50,5 +50,23 @@ Add products to the cart, manage quantities, and proceed to checkout.
 </br>
 </br>
 ![Profile Screenshot](./public/Screenshots/profile.jpg)
+=======
+![Homepage Screenshot](./public/Screenshots/home.jpg)
+</br>
+</br>
+![Featured Products](./public/Screenshots/featured.jpg)
+</br>
+</br>
+![Product Page](./public/Screenshots/product.jpg)
+</br>
+</br>
+![Category Page](./public/Screenshots/Men.jpg)
+</br>
+</br>
+![Strapi Dashboard](./public/Screenshots/dashboard.jpg)
+</br>
+</br>
+
+> > > > > > > 00755fe6887b8687faa62266ba3aa8ecf4697ba7
 
 <br/>

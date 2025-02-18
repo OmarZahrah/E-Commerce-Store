@@ -1,7 +1,7 @@
 import Slider from "../../components/Slider/Slider";
 import FeaturedProducts from "../../components/Featured Products/FeaturedProducts";
 import "./Home.scss";
-import Categories from "../../components/Categories/Categories";
+// import Categories from "../../components/Categories/Categories";
 import { featuredData, trending } from "../../data/data";
 import Contact from "../../components/Contact/Contact";
 const Home = () => {

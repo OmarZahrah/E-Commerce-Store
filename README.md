@@ -30,27 +30,6 @@ Add products to the cart, manage quantities, and proceed to checkout.
 
 ## Screenshots
 
-<<<<<<< HEAD
-
-## Screenshots
-
-![Homepage Screenshot](./public/Screenshots/home.jpg)
-</br>
-</br>
-![About Page Screenshot](./public/Screenshots/about.jpg)
-</br>
-</br>
-![Cabins Screenshot](./public/Screenshots/cabins.jpg)
-</br>
-</br>
-![Cabin Screenshot](./public/Screenshots/cabin.jpg)
-</br>
-</br>
-![Reservation Screenshot](./public/Screenshots/reservation.jpg)
-</br>
-</br>
-![Profile Screenshot](./public/Screenshots/profile.jpg)
-=======
 ![Homepage Screenshot](./public/Screenshots/home.jpg)
 </br>
 </br>
@@ -67,6 +46,5 @@ Add products to the cart, manage quantities, and proceed to checkout.
 </br>
 </br>
 
-> > > > > > > 00755fe6887b8687faa62266ba3aa8ecf4697ba7
 
 <br/>
